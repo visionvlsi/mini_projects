@@ -1,4 +1,4 @@
-module fir_4tap(
+module fir_filter(
         input Clk,
         input signed [7:0] Xin,
         output reg signed [15:0] Yout
