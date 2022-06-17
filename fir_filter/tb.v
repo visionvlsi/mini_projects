@@ -8,7 +8,7 @@ module tb;
     wire signed [15:0] Yout;
 
     // Instantiate the Unit Under Test (UUT)
-    fir_4tap uut (
+    fir_filter uut (
         .Clk(Clk), 
         .Xin(Xin), 
         .Yout(Yout)
